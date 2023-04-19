@@ -2,8 +2,23 @@ import React, { useState, useEffect } from "react";
 import firebase from "firebase/app";
 import "firebase/auth";
 
+
 const firebaseConfig = {
-  // your Firebase project config
+
+  apiKey: "AIzaSyDzq5MuQqfqO8IxaWT4bCkKddk5RzYgBpM",
+
+  authDomain: "user-signup-8fc30.firebaseapp.com",
+
+  projectId: "user-signup-8fc30",
+
+  storageBucket: "user-signup-8fc30.appspot.com",
+
+  messagingSenderId: "710144174087",
+
+  appId: "1:710144174087:web:0e3105caedc27b40d422a2",
+
+  measurementId: "G-2LGKVL6YL8"
+
 };
 
 firebase.initializeApp(firebaseConfig);
